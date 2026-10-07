@@ -1,0 +1,6 @@
+{
+  "name": "MemberHub - Área de Membros & Documentos",
+  "description": "Área de membros externa para entrega de produtos digitais em módulos, com autenticação por e-mail e integração automática via Webhook para Hotmart, Kiwify, Eduzz e Stripe.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

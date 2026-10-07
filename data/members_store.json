@@ -1,0 +1,377 @@
+{
+  "members": [
+    {
+      "id": "mem-1791322571733",
+      "email": "teste@exemplo.com",
+      "name": "teste",
+      "phone": "",
+      "gateway": "Kiwify",
+      "transactionId": "TX-490215",
+      "purchaseDate": "2026-10-06T21:36:11.733Z",
+      "status": "active",
+      "completedDocumentIds": [],
+      "personalNotes": {},
+      "checklistProgress": {},
+      "role": "member",
+      "lastLogin": "2026-10-06T21:36:11.734Z"
+    },
+    {
+      "id": "mem-1791322182275",
+      "email": "qualquer.aluno@gmail.com",
+      "name": "qualquer.aluno",
+      "phone": "",
+      "gateway": "Kiwify",
+      "transactionId": "TX-732014",
+      "purchaseDate": "2026-10-06T21:29:42.275Z",
+      "status": "active",
+      "completedDocumentIds": [],
+      "personalNotes": {},
+      "checklistProgress": {},
+      "role": "member",
+      "lastLogin": "2026-10-06T21:29:42.275Z"
+    },
+    {
+      "id": "mem-1790859831991",
+      "email": "teste.comprador@gmail.com",
+      "name": "Carlos Eduardo",
+      "phone": "",
+      "gateway": "Kiwify",
+      "transactionId": "TX-1790859831991",
+      "purchaseDate": "2026-10-01T13:03:51.991Z",
+      "status": "active",
+      "completedDocumentIds": [],
+      "personalNotes": {},
+      "checklistProgress": {},
+      "role": "member"
+    },
+    {
+      "id": "mem-admin-01",
+      "email": "rrnatomoreno1231@gmail.com",
+      "name": "Renato Moreno",
+      "phone": "+55 (11) 98765-4321",
+      "gateway": "Kiwify",
+      "transactionId": "KW-89214710",
+      "purchaseDate": "2026-09-28T14:30:00Z",
+      "status": "active",
+      "completedDocumentIds": [
+        "doc-101",
+        "doc-102",
+        "doc-201"
+      ],
+      "personalNotes": {
+        "doc-101": "Focar no modelo de ancoragem tripla nas propostas a partir do próximo trimestre.",
+        "doc-201": "Revisar cláusula de rescisão com o assessor jurídico da empresa."
+      },
+      "checklistProgress": {
+        "doc-101": [
+          "chk-1",
+          "chk-2"
+        ],
+        "doc-102": [
+          "chk-5"
+        ]
+      },
+      "lastLogin": "2026-10-06T21:30:12.357Z",
+      "role": "admin"
+    },
+    {
+      "id": "mem-02",
+      "email": "carla.mendes@empresa.com.br",
+      "name": "Carla Mendes",
+      "phone": "+55 (21) 99123-4567",
+      "gateway": "Hotmart",
+      "transactionId": "HP-90142851",
+      "purchaseDate": "2026-09-30T10:15:00Z",
+      "status": "active",
+      "completedDocumentIds": [
+        "doc-101",
+        "doc-301"
+      ],
+      "personalNotes": {},
+      "lastLogin": "2026-09-30T16:00:00Z",
+      "role": "member"
+    },
+    {
+      "id": "mem-03",
+      "email": "lucas.silva@startup.io",
+      "name": "Lucas Silva",
+      "phone": "+55 (31) 98877-6655",
+      "gateway": "Stripe",
+      "transactionId": "ch_3Nkd920194821",
+      "purchaseDate": "2026-10-01T04:20:00Z",
+      "status": "active",
+      "completedDocumentIds": [],
+      "personalNotes": {},
+      "lastLogin": "2026-10-01T05:00:00Z",
+      "role": "member"
+    }
+  ],
+  "modules": [
+    {
+      "id": "mod-1",
+      "title": "Começe aqui",
+      "subtitle": "Acesse todos os projetos e documentos de marcenaria",
+      "description": "Guia completo com projetos detalhados em PDF para marcenaria, móveis em MDF, madeira maciça e pallets.",
+      "coverImage": "/modulo 1.jpg",
+      "order": 1,
+      "documents": [
+        {
+          "id": "doc-marcenaria-48",
+          "moduleId": "mod-1",
+          "title": "+48 Projetos de Marcenaria",
+          "type": "guide",
+          "description": "Coletânea completa com mais de 48 projetos práticos e detalhados de marcenaria com medidas e instruções de montagem.",
+          "format": "Documento em PDF",
+          "readTime": "PDF Completo (66 páginas)",
+          "fileSize": "9.0 MB",
+          "downloadFileName": "+48 PROJETOS MARCENARIA.pdf",
+          "fileUrl": "/48-projetos-marcenaria.pdf",
+          "order": 1,
+          "keyTakeaways": [
+            "Diagramas e cotas detalhadas para cortes precisos.",
+            "Passo a passo com lista de materiais e peças necessárias.",
+            "Arquivo pronto para visualização e impressão."
+          ],
+          "checklistItems": [
+            {
+              "id": "chk-m1",
+              "text": "Baixar o PDF no computador ou celular"
+            },
+            {
+              "id": "chk-m2",
+              "text": "Escolher o primeiro projeto para executar"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Baixar Arquivo PDF (+48 Projetos)",
+              "url": "/48-projetos-marcenaria.pdf",
+              "type": "PDF"
+            }
+          ],
+          "contentMarkdown": "## +48 Projetos de Marcenaria\n\nEste material reúne mais de 48 projetos práticos e estruturados para execução em marcenaria.\n\n### O que você encontrará neste arquivo:\n- Desenhos técnicos com vistas e medidas exatas.\n- Especificações de corte e gabaritos.\n- Orientações de montagem para iniciantes e profissionais.\n\nVocê pode ler o documento ou clicar no botão **Baixar Arquivo** para salvá-lo em seu computador ou celular."
+        },
+        {
+          "id": "doc-mdf-18",
+          "moduleId": "mod-1",
+          "title": "18 Projetos de Marceneiro em MDF",
+          "type": "guide",
+          "description": "Projetos modernos com plano de corte e medidas ideais para chapas e estruturas em MDF.",
+          "format": "Documento em PDF",
+          "readTime": "PDF Completo",
+          "fileSize": "8.9 MB",
+          "downloadFileName": "18 projetos marceneiro MDF.pdf",
+          "fileUrl": "/18-projetos-marceneiro-mdf.pdf",
+          "order": 2,
+          "keyTakeaways": [
+            "Projetos desenhados especificamente para chapas de MDF.",
+            "Otimização do aproveitamento de corte para evitar desperdício de material."
+          ],
+          "checklistItems": [
+            {
+              "id": "chk-mdf-1",
+              "text": "Revisar a espessura das chapas recomendadas (15mm ou 18mm)"
+            },
+            {
+              "id": "chk-mdf-2",
+              "text": "Preparar a fita de borda e ferragens indicadas"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Baixar Arquivo PDF (18 Projetos MDF)",
+              "url": "/18-projetos-marceneiro-mdf.pdf",
+              "type": "PDF"
+            }
+          ],
+          "contentMarkdown": "## 18 Projetos de Marceneiro em MDF\n\nGuia focado na fabricação de peças modernas utilizando MDF.\n\n### Principais Destaques:\n- Projetos modulares para sala, quarto e escritório.\n- Indicações de furação para corrediças, dobradiças e fixações invisíveis."
+        },
+        {
+          "id": "doc-armario-banheiro",
+          "moduleId": "mod-1",
+          "title": "Projeto: Armário de Banheiro",
+          "type": "guide",
+          "description": "Projeto detalhado para armário de banheiro com nichos, gavetas e acabamentos resistentes a umidade.",
+          "format": "Documento em PDF",
+          "readTime": "PDF Técnico",
+          "fileSize": "2.3 MB",
+          "downloadFileName": "projeto armário de banheiro.pdf",
+          "fileUrl": "/projeto-armario-de-banheiro.pdf",
+          "order": 3,
+          "keyTakeaways": [
+            "Medidas padronizadas e adaptáveis para bancadas e cubas.",
+            "Detalhes de ventilação e proteção contra umidade."
+          ],
+          "checklistItems": [
+            {
+              "id": "chk-banh-1",
+              "text": "Verificar medidas do espaço no banheiro"
+            },
+            {
+              "id": "chk-banh-2",
+              "text": "Conferir o ponto de saída de encanamento antes de cortar o fundo"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Baixar Projeto do Armário de Banheiro",
+              "url": "/projeto-armario-de-banheiro.pdf",
+              "type": "PDF"
+            }
+          ],
+          "contentMarkdown": "## Projeto: Armário de Banheiro\n\nProjeto executivo passo a passo para fabricação de armário de banheiro sob medida."
+        },
+        {
+          "id": "doc-guarda-roupa",
+          "moduleId": "mod-1",
+          "title": "Projeto: Guarda-Roupa Detalhado",
+          "type": "guide",
+          "description": "Projeto completo de guarda-roupa com divisórias internas, cabideiros, gaveteiros e portas.",
+          "format": "Documento em PDF",
+          "readTime": "PDF Técnico",
+          "fileSize": "3.1 MB",
+          "downloadFileName": "projeto guarda-roupa detalhado.pdf",
+          "fileUrl": "/projeto-guarda-roupa-detalhado.pdf",
+          "order": 4,
+          "keyTakeaways": [
+            "Estruturação reforçada para sustentação de peso em prateleiras e gavetas.",
+            "Plano de montagem em módulos independentes facilitando o transporte."
+          ],
+          "checklistItems": [
+            {
+              "id": "chk-gr-1",
+              "text": "Conferir o pé-direito do ambiente e folgas de montagem"
+            },
+            {
+              "id": "chk-gr-2",
+              "text": "Nivelar a base antes de montar as laterais"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Baixar Projeto Guarda-Roupa Detalhado",
+              "url": "/projeto-guarda-roupa-detalhado.pdf",
+              "type": "PDF"
+            }
+          ],
+          "contentMarkdown": "## Projeto: Guarda-Roupa Detalhado\n\nProjeto completo com todas as vistas, divisões internas e detalhes de ferragens para execução de guarda-roupa."
+        },
+        {
+          "id": "doc-madeira",
+          "moduleId": "mod-1",
+          "title": "Projetos em Madeira Maciça",
+          "type": "guide",
+          "description": "Projetos clássicos e rústicos utilizando madeira maciça, encaixes tradicionais e acabamentos refinados.",
+          "format": "Documento em PDF",
+          "readTime": "PDF Completo",
+          "fileSize": "2.7 MB",
+          "downloadFileName": "Projetos em madeira.pdf",
+          "fileUrl": "/projetos-em-madeira.pdf",
+          "order": 5,
+          "keyTakeaways": [
+            "Encaixes clássicos (espiga, meia-madeira e cavilhas).",
+            "Técnicas de lixamento, selamento e aplicação de verniz ou óleo mineral."
+          ],
+          "checklistItems": [
+            {
+              "id": "chk-mad-1",
+              "text": "Selecionar madeira seca e aparelhada"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Baixar Projetos em Madeira",
+              "url": "/projetos-em-madeira.pdf",
+              "type": "PDF"
+            }
+          ],
+          "contentMarkdown": "## Projetos em Madeira Maciça\n\nColetânea de projetos tradicionais com foco em durabilidade, encaixes clássicos e estética natural da madeira."
+        },
+        {
+          "id": "doc-pallet",
+          "moduleId": "mod-1",
+          "title": "Projetos de Móveis de Pallet",
+          "type": "guide",
+          "description": "Guia de sustentabilidade e marcenaria rústica com sofás, mesas de centro, bancos e estantes de pallets.",
+          "format": "Documento em PDF",
+          "readTime": "PDF Completo",
+          "fileSize": "4.6 MB",
+          "downloadFileName": "projetos moveis de pallet.pdf",
+          "fileUrl": "/projetos-moveis-de-pallet.pdf",
+          "order": 6,
+          "keyTakeaways": [
+            "Seleção e desmonte seguro de pallets.",
+            "Tratamento da madeira, lixamento e proteção contra pragas."
+          ],
+          "checklistItems": [
+            {
+              "id": "chk-pal-1",
+              "text": "Verificar se os pallets possuem tratamento térmico (HT)"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Baixar Projetos Móveis de Pallet",
+              "url": "/projetos-moveis-de-pallet.pdf",
+              "type": "PDF"
+            }
+          ],
+          "contentMarkdown": "## Projetos de Móveis de Pallet\n\nGuia ilustrado de como transformar pallets em móveis criativos, funcionais e de baixo custo."
+        }
+      ]
+    },
+    {
+      "id": "mod-2",
+      "title": "Bônus",
+      "subtitle": "Materiais complementares e conteúdos exclusivos",
+      "description": "Este módulo receberá materiais bônus adicionais em breve. Acompanhe as atualizações da área de membros.",
+      "coverImage": "/modulo 2.jpg",
+      "order": 2,
+      "documents": []
+    }
+  ],
+  "webhookLogs": [
+    {
+      "id": "wh-1790859831991",
+      "timestamp": "2026-10-01T13:03:51.991Z",
+      "gateway": "Kiwify",
+      "event": "order_paid",
+      "buyerEmail": "teste.comprador@gmail.com",
+      "buyerName": "Carlos Eduardo",
+      "status": "success",
+      "rawPayload": {
+        "order_status": "paid",
+        "Customer": {
+          "email": "teste.comprador@gmail.com",
+          "full_name": "Carlos Eduardo"
+        }
+      },
+      "message": "Novo comprador Carlos Eduardo (teste.comprador@gmail.com) cadastrado e liberado automaticamente via Kiwify."
+    },
+    {
+      "id": "wh-seed-01",
+      "timestamp": "2026-10-01T09:03:46.740Z",
+      "gateway": "Kiwify",
+      "event": "order_approved",
+      "buyerEmail": "rrnatomoreno1231@gmail.com",
+      "buyerName": "Renato Moreno",
+      "status": "success",
+      "rawPayload": {
+        "order_id": "KW-89214710",
+        "order_status": "paid",
+        "Customer": {
+          "full_name": "Renato Moreno",
+          "email": "rrnatomoreno1231@gmail.com",
+          "mobile": "+5511987654321"
+        }
+      },
+      "message": "Comprador reconhecido e acesso concedido automaticamente."
+    }
+  ],
+  "settings": {
+    "productName": "MasterKit: Documentos, Contratos & SOPs Executivos",
+    "supportEmail": "suporte@memberhub.digital",
+    "supportWhatsapp": "+55 11 98765-4321",
+    "webhookSecret": "whsec_memberhub_o2nqkg9b"
+  }
+}
